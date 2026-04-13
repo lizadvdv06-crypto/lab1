@@ -10,12 +10,11 @@ int main() {
     string fileName;
     int threads;
 
-    cout << "Enter file name (e.g., A.txt, B.txt...): ";
+    cout << "Enter file name: ";
     cin >> fileName;
     cout << "Enter number of threads: ";
     cin >> threads;
 
-    // Путь к папке (измени, если папка другая)
     string path = "C:\\Users\\user\\Desktop\\учеба\\" + fileName;
     ifstream fa(path);
 
@@ -25,10 +24,8 @@ int main() {
     }
 
     int n;
-    fa >> n; // Считываем размер матрицы из файла
+    fa >> n;
 
-    // Выделяем память под две матрицы (будем множить матрицу саму на себя для теста скорости)
-    // или если у тебя в файле две матрицы, считай вторую так же.
     int** A = new int* [n];
     int** B = new int* [n];
     int** C = new int* [n];
@@ -39,17 +36,14 @@ int main() {
         C[i] = new int[n];
     }
 
-    // Заполняем матрицу A данными из файла
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
             fa >> A[i][j];
 
-    // Для простоты эксперимента сделаем B такой же как A
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
             B[i][j] = A[i][j];
 
-    // Установка потоков
     omp_set_num_threads(threads);
 
     auto start = chrono::high_resolution_clock::now();
@@ -73,7 +67,6 @@ int main() {
     cout << "Time: " << time << " seconds" << endl;
     cout << "-----------------------------------" << endl;
 
-    // Очистка памяти (чтобы препод не ругался)
     for (int i = 0; i < n; i++) {
         delete[] A[i]; delete[] B[i]; delete[] C[i];
     }
