@@ -1,0 +1,194 @@
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 1 3matrix.exe
+Enter file name: A.txt
+-----------------------------------
+Matrix size: 200x200
+Processes used: 1
+Time: 0.0304432 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 1 3matrix.exe
+Enter file name: B.txt
+-----------------------------------
+Matrix size: 400x400
+Processes used: 1
+Time: 0.267215 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 1 3matrix.exe
+Enter file name: C.txt
+-----------------------------------
+Matrix size: 800x800
+Processes used: 1
+Time: 2.39877 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 1 3matrix.exe
+Enter file name: D.txt
+-----------------------------------
+Matrix size: 1200x1200
+Processes used: 1
+Time: 9.94746 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 1 3matrix.exe
+Enter file name: E.txt
+-----------------------------------
+Matrix size: 1600x1600
+Processes used: 1
+Time: 31.2008 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 1 3matrix.exe
+Enter file name: F.txt
+-----------------------------------
+Matrix size: 2000x2000
+Processes used: 1
+Time: 57.1187 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 2 3matrix.exe
+Enter file name: A.txt
+-----------------------------------
+Matrix size: 200x200
+Processes used: 2
+Time: 0.0249921 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 2 3matrix.exe
+Enter file name: B.txt
+-----------------------------------
+Matrix size: 400x400
+Processes used: 2
+Time: 0.165207 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 2 3matrix.exe
+Enter file name: C.txt
+-----------------------------------
+Matrix size: 800x800
+Processes used: 2
+Time: 1.46481 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 2 3matrix.exe
+Enter file name: D.txt
+-----------------------------------
+Matrix size: 1200x1200
+Processes used: 2
+Time: 5.50096 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 2 3matrix.exe
+Enter file name: E.txt
+-----------------------------------
+Matrix size: 1600x1600
+Processes used: 2
+Time: 17.3569 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 2 3matrix.exe
+Enter file name: F.txt
+-----------------------------------
+Matrix size: 2000x2000
+Processes used: 2
+Time: 32.5055 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 4 3matrix.exe
+Enter file name: A.txt
+-----------------------------------
+Matrix size: 200x200
+Processes used: 4
+Time: 0.0142414 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 4 3matrix.exe
+Enter file name: B.txt
+-----------------------------------
+Matrix size: 400x400
+Processes used: 4
+Time: 0.126808 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 4 3matrix.exe
+Enter file name: C.txt
+-----------------------------------
+Matrix size: 800x800
+Processes used: 4
+Time: 1.25527 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 4 3matrix.exe
+Enter file name: D.txt
+-----------------------------------
+Matrix size: 1200x1200
+Processes used: 4
+Time: 5.56582 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 4 3matrix.exe
+Enter file name: E.txt
+-----------------------------------
+Matrix size: 1600x1600
+Processes used: 4
+Time: 15.908 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 4 3matrix.exe
+Enter file name: F.txt
+-----------------------------------
+Matrix size: 2000x2000
+Processes used: 4
+Time: 32.3654 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 8 3matrix.exe
+Enter file name: A.txt
+-----------------------------------
+Matrix size: 200x200
+Processes used: 8
+Time: 0.0064382 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 8 3matrix.exe
+Enter file name: B.txt
+-----------------------------------
+Matrix size: 400x400
+Processes used: 8
+Time: 0.0639954 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 8 3matrix.exe
+Enter file name: C.txt
+-----------------------------------
+Matrix size: 800x800
+Processes used: 8
+Time: 1.13711 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 8 3matrix.exe
+Enter file name: D.txt
+-----------------------------------
+Matrix size: 1200x1200
+Processes used: 8
+Time: 5.60087 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 8 3matrix.exe
+Enter file name: E.txt
+-----------------------------------
+Matrix size: 1600x1600
+Processes used: 8
+Time: 15.8346 seconds
+-----------------------------------
+
+C:\Users\user\source\repos\3matrix\x64\Debug>mpiexec -n 8 3matrix.exe
+Enter file name: F.txt
+-----------------------------------
+Matrix size: 2000x2000
+Processes used: 8
+Time: 32.9249 seconds
+-----------------------------------
